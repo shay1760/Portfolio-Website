@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark"></i>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <div class="hello">Hi I am</div>
+                <div class="name">Rahul Kumar Rai</div>
+                <span id="element"></span>
+            </div>
+        </div>
+    </div>
+<!-----------------About Me------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="gt.jpg">
+                </div>
+                <div id="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hi, My name is Rahul and I am an Engineering student currenty pursuing it from Narula Institue of Technology in Kolkata. <br>I like to do problem solving and I also have good knowledge of computer fundamentals and still learning about new things. <br> I like to take up challenges and always ready to know about new things whenever I get the chance.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <div class="language">
+                            <h1>Programming</h1>
+                            <ul>
+                                <li><span>C,   C++,   Java,   Python,   JavaScript,   HTML,   CSS</span></li>  
+                                                   
+                            </ul>
+                        </div>
+                        <div class="coding">
+                            <h1>Data Structures and Algorithms</h1>
+                        </div>
+                        <div class="query">
+                            <h1>MySQL</h1>
+                        </div>
+                        <div class="cloud">
+                            <h1>AWS</h1>
+                        </div>
+                        <div class="ms">
+                            <h1>Kubernetes</h1>
+                        </div>
+                        <div class="others">
+                            <h1>Tools</h1>
+                            <ul>
+                                <li><span>PostmanApi,     Linux,    Github,  VSCode</span></li>
+        
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-contents" id="Projects">
+                        <ul>
+                            <li><h1>Netflix Clone Website</h1><br><span>Developed a Netflix like website with the help of HTML and TailWind CSS. <br>Made it very user friendly and with eye catching design.</span></li>
+                            <li><h1>Personal Portfolio Website</h1><br><span>Made a personal profile website using the tools like html and css. <br>Made it responsive and simple but vibrant with the necessary informations given.</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><h1>Bachelor of Technology</h1><br><span>Narula Institue of Technology(2021-2025)<br>CGPA - 7.77 (till now)</span></li>
+                            <li><h1>Intermediate</h1><br><span>Deshbandhu Vidyalaya Boys' Chittaranjan<br>Percentage - 66%</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------portfolio-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">
+            My Work
+        </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Postman - Postman API Fundamentals Student Expert - 2024-01-04.png">
+                <div class="layer">
+                    <h3>Postman Student Expert Program</h3>
+                    <p>Complete the Postman API Fundamentals student expert program and completed all the due work involving in the program.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="python_udemy.jpg">
+                <div class="layer">
+                    <h3>Python and Data Science</h3>
+                    <p>Completed the course "Python & Data Science with Python Projects" using tools like Numpy and Pandas under the instruction of OAK academy from UDEMY.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Codechef.png">
+                <div class="layer">
+                    <h3>2 star on CodeChef(Max : 1556)<br>Global Rank of 760(17000) in Starter 64</h3>
+                    <p><a href="https://rb.gy/3ohpcb">CodeChef</a></p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="leetcode.png">
+                <div class="layer">
+                    <h3>300+ problems solved on leetcode.</h3>
+                    <p><a href="https://rb.gy/fcyvee">LeetCode</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact</h1>
+                <p><i class="fa fa-regular fa-envelope"></i>rahulkrrai0302@gmail.com</p>
+                <p><i class="fa fa-regular fa-phone"></i>+91 8116697336</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/rahul-rai-2887632a7/"><i class="fa fa-regular fa-linkedin"></i></a>
+                    <a href="https://github.com/rahul03rai"> <i class="fa fa-regular fa-github"></i></a>
+                    <a href="https://www.instagram.com/rahulrai0302/"><i class="fa fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Resume.pdf.odt" class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="button" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script>
+        var typed = new Typed('#element', {
+          strings: ['Student', 'an enthuasist learner', 'ready to take up challenges'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
