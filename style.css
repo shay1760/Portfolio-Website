@@ -198,6 +198,7 @@ nav ul li a:hover::after{
 }
 #portfolio h1{
     font-size: 65px;
+    margin-bottom: 20px;
     font-weight: 600;
 }
 .work-list{
@@ -239,12 +240,12 @@ nav ul li a:hover::after{
     transition: height 0.5s;
 }
 .layer p{
-    font-size: 20px;
+    font-size: 12px;
 }
 .layer h3{
     font-weight: 500;
-    margin-bottom: 20px;
-    font-size: 25px;
+    margin-bottom: 10px;
+    font-size: 15px;
 }
 .layer a{
     margin-top: 20px;
@@ -281,22 +282,24 @@ nav ul li a:hover::after{
 }
 /*-----------------------contact----*/
 #contact{
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .contact-left{
     flex-basis: 35%;
 }
 .contact-left h1{
-    font-size: 65px;
+    font-size: 55px;
+    margin-left: 50px;
     font-weight: 600;
 }
 .contact-right{
     flex-basis: 50%;
     position: absolute;
     left: 60vh;
+    width: 100vh;
 }
 .contact-left p{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .contact-left p i{
     color: #ff004f;
